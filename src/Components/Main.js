@@ -1,5 +1,6 @@
 import React, {  } from "react";
 import About from "./About";
+import Projects from "./Projects";
 import Technilogies from "./Technilogies";
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
         <About></About>
       </div>
       <Technilogies></Technilogies>
+      <Projects></Projects>
     </div>
   );
 };

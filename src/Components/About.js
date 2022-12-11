@@ -41,7 +41,7 @@ const About = () => {
             </p>
             <p className="pt-8 text-sm">
               👀 I’m interested in Web design and devolopment.<br></br>
-              🌱 I’m currently learning React,<br></br>
+              🌱 I’m capable to work with ReactJS,<br></br>
               💞️ I’m looking to collaborate on anythings related.
             </p>
   
