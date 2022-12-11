@@ -31,7 +31,7 @@ const About = () => {
                   "React with router dom",
                   "Graphics Editing",
                 ]}
-                loop={5}
+                loop={20}
                 cursor
                 cursorStyle=">>"
                 typeSpeed={70}
