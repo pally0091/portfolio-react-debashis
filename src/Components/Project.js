@@ -3,17 +3,17 @@ import React from "react";
 const Project = ({ project }) => {
   const { name, photo, technologies, description, site } = project;
   return (
-    <div className="w-[70%]  mx-auto mt-5 p-4 border-2 rounded-tl-xl rounded-br-xl bg-slate-200 ">
+    <div className="lg:w-[70%] sm:w-[90%] mx-auto mt-5 p-4 border-2 rounded-tl-xl rounded-br-xl bg-slate-200 ">
       <h2 className="text-3xl font-bold">{name}</h2>
-      <div className="mt-3 flex justify-center items-center">
-        <div className="w-3/5">
+      <div className="mt-3 lg:flex lg:flex-row sm:flex sm:flex-col justify-center items-center">
+        <div className="lg:w-3/5 sm:w-full">
           <img
             className="w-full h-full"
             src={photo}
             alt=""
           ></img>
         </div>
-        <div className="w-2/5">
+        <div className="lg:w-2/5 sm:w-full">
           <div className="text-justify my-4 p-4 bg-lime-500">
             <p>Technologies used on this projet :</p>
             <p>{technologies}</p>
